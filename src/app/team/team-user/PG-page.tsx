@@ -1,12 +1,10 @@
 // pages/index.tsx
-"use client"
+"use client";
 import { NextPage } from "next";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { User } from "../../../../constants/User";
 import RandomUser from "./global-pg";
-
-
 
 const PGGlobal: NextPage = () => {
   const [users, setUsers] = useState<User[]>([]);
@@ -41,7 +39,7 @@ const PGGlobal: NextPage = () => {
 
   return (
     <section className="relative bg-slate-100">
-      <div className="relative flex justify-center pt-12 pb-6 lg:pt-5">
+      <div className="relative flex justify-center pt-5 pb-6 lg:pt-7 ">
         <div className="container">
           <div className="max-h-screen text-center mb-1">
             <div className="mx-auto text-center lg:mt-5 mb-3 w-full lg:w-1/2">
@@ -51,25 +49,27 @@ const PGGlobal: NextPage = () => {
               </h4>
             </div>
           </div>
-          <div id="User" className="relative w-full" data-carousel="slide">
-            {loading ? (
-              <div className="flex justify-center pt-16 h-28">
-                <p>Looking for your Photographers...</p>
-              </div>
-            ) : (
-              <div className="w-full px-4 gap-3 flex flex-wrap items-center justify-center mb-4">
-                {users.map((user, index) => (
-                  <div key={index}>
-                    <RandomUser
-                      user={user}
-                      isLoading={loading}
-                      error={error}
-                      isTransitioning={isTransitioning}
-                    />
-                  </div>
-                ))}
-              </div>
-            )}
+          <div className="">
+            <div id="User" className="relative w-full" data-carousel="slide">
+              {loading ? (
+                <div className="flex justify-center animate-pulse m-28 h-28">
+                  <p>Looking for your Photographers...</p>
+                </div>
+              ) : (
+                <div className="flex flex-wrap items-center justify-center gap-4 mb-28">
+                  {users.map((user, index) => (
+                    <div key={index} className="flex-grow max-w-[350px] m-5">
+                      <RandomUser
+                        user={user}
+                        isLoading={loading}
+                        error={error}
+                        isTransitioning={isTransitioning}
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </div>

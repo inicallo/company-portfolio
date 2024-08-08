@@ -38,9 +38,10 @@ const Services = () => {
                     <Image
                       src="/images/food_b.webp"
                       alt="Food & Beverages"
-                      width={1200}
-                      height={800}
+                      width={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -62,8 +63,9 @@ const Services = () => {
                       src="/images/Card/Property.webp"
                       alt="Property"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -85,8 +87,9 @@ const Services = () => {
                       src="/images/Card/Headshots.webp"
                       alt="Headshots"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -110,8 +113,9 @@ const Services = () => {
                       src="/images/Card/Events.webp"
                       alt="Events"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -135,8 +139,9 @@ const Services = () => {
                       src="/images/Card/Beauty.webp"
                       alt="Beauty"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -160,8 +165,9 @@ const Services = () => {
                       src="/images/Card/Products.webp"
                       alt="Products"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -185,8 +191,9 @@ const Services = () => {
                       src="/images/Card/TVC.webp"
                       alt="TVC"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">
@@ -208,8 +215,9 @@ const Services = () => {
                       src="/images/Card/Other-Services-Bubble.webp"
                       alt="TVC"
                       width={800}
-                      height={800}
+                      height={533}
                       priority
+                      sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </figure>
                   <div className="card-body">

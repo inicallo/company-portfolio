@@ -3,7 +3,7 @@ import React from "react";
 
 const TeamLeader = () => {
   return (
-    <section className="relative pb-20 bg-slate-100">
+    <section className="relative pb-24 bg-slate-100">
       <div className="relative flex justify-center pt-14 lg:pt-5">
         <div className="container">
           <div className="max-h-screen text-center mb-5">
@@ -23,24 +23,28 @@ const TeamLeader = () => {
                       height={500}
                     />
                   </figure>
-                  <div className="card-body w-[230px] h-[160px]">
-                    <h2 className="card-title text-left font-semibold text-2xl mt-28 -ml-10">
-                      Calvin Angelo
-                    </h2>
-                    <p className="text-left italic -mt-3 -ml-2">
-                      CEO & Founder
-                    </p>
+                  <div className="flex items-center">
+                    <div className="card-body w-[150px] lg:w-[200px] h-[100px]">
+                      <h2 className="card-title text-left -ml-10 font-semibold text-[18px] lg:text-2xl ">
+                        Calvin Angelo
+                      </h2>
+                      <p className="text-left lg:text-base text-[12px] italic -mt-3 -ml-3">
+                        CEO & Founder
+                      </p>
+                    </div>
                   </div>
                 </div>
 
                 <div className="card card-side bg-red-50 shadow-xl">
-                  <div className="card-body w-[230px] h-[160px]">
-                    <h2 className="card-title justify-end -mr-5 font-semibold text-2xl mt-28">
-                      Lauren Lau
-                    </h2>
-                    <p className="text-right italic -mt-3 -mr-4">
-                      Managing Director
-                    </p>
+                  <div className="flex items-center">
+                    <div className="card-body w-[150px] lg:w-[200px] h-[100px]">
+                      <h2 className="card-title text-right ml-4 lg:ml-5 -mr-10 font-semibold text-[18px] lg:text-2xl">
+                        Lauren Lau
+                      </h2>
+                      <p className="text-right lg:text-base text-[12px] italic -mt-3 -mr-5 -ml-8">
+                        Managing Director
+                      </p>
+                    </div>
                   </div>
                   <figure>
                     <Image

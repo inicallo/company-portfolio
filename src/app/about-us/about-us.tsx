@@ -32,8 +32,10 @@ const AboutUs = () => {
                   <Image
                     src="/images/photographers.webp"
                     alt="Photography1"
-                    width={800}
-                    height={800}
+                    width={500}
+                    height={500}
+                    placeholder="blur" // Use blur-up placeholder
+                    blurDataURL="/images/photographers.webp" // Optional: add a small base64 placeholder image
                   />
                 </figure>
                 <div className="card-body">

@@ -5,12 +5,13 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "CA Studio | Our Team",
-  description: "Meet the creative minds behind CAStudio. Learn more about our talented team of photographers, editors, and professionals dedicated to delivering high-quality photography services.",
+  description:
+    "Meet the creative minds behind CAStudio. Learn more about our talented team of photographers, editors, and professionals dedicated to delivering high-quality photography services.",
 };
 
 const Team = () => {
   return (
-    <section className="relative pt-20 bg-slate-100">
+    <section className="relative mt-20 bg-slate-100">
       <div>
         <TeamLeader />
         <TeamUser />
