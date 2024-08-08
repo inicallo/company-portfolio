@@ -31,7 +31,7 @@ const RandomUser: React.FC<RandomUserProps> = ({
             {error ? (
               <p>{error}</p>
             ) : (
-              <div className="card card-side w-full md:w-[500px]  bg-slate-500 shadow-x hover:shadow-primary">
+              <div className="card card-side w-full md:w-[500px]  bg-slate-500 shadow-lg hover:animate-pulse hover:shadow-primary">
                 <figure className="m-3 lg:ml-5">
                   <Image
                     src={`${user?.picture.large}`}

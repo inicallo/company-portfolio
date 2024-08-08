@@ -14,7 +14,7 @@ const TeamLeader = () => {
             </div>
             <div className="mt-9">
               <div className="flex flex-wrap justify-center gap-5 mx-6 ">
-                <div className="card card-side bg-red-100 shadow-xl">
+                <div className="card card-side bg-red-100 shadow-xl hover:shadow-lg hover:shadow-red-400">
                   <figure>
                     <Image
                       src="/team/Calvin.webp"
@@ -35,7 +35,7 @@ const TeamLeader = () => {
                   </div>
                 </div>
 
-                <div className="card card-side bg-red-50 shadow-xl">
+                <div className="card card-side bg-red-50 shadow-xl hover:shadow-lg hover:shadow-red-300">
                   <div className="flex items-center">
                     <div className="card-body w-[150px] lg:w-[200px] h-[100px]">
                       <h2 className="card-title text-right ml-4 lg:ml-5 -mr-10 font-semibold text-[18px] lg:text-2xl">
