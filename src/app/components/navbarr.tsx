@@ -39,7 +39,7 @@ const ClientNavbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 py-5 bg-white dark:bg-gray-900 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 py-5 bg-white dark:bg-gray-900 shadow-lg">
       <div className="flex justify-between items-center mx-auto px-4 lg:px-8">
         <Link href="/" aria-label="CAStudio Home">
           <Image

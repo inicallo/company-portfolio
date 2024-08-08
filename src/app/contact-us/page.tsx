@@ -19,7 +19,7 @@ const ContactUs = () => {
             </div>
           </div>
           {/* --team start-- */}
-          <form>
+          <form className="m-4">
           <div className="w-full lg:w-2/3 lg:mx-auto">
             <div className="w-full px-4 mb-8">
               <label htmlFor="name" className="text-base font-bold text-dark1">

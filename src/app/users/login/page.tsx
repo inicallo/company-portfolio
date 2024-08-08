@@ -34,7 +34,7 @@ const LoginID: React.FC = () => {
             </div>
           </div>
           {/* --start-- */}
-          <div className="m-5">
+          <div className="m-6">
             <form className="max-w-sm mx-auto" onSubmit={handleSubmit}>
               <div className="mb-5">
                 <label

@@ -39,11 +39,11 @@ const AboutUs = () => {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title lg:pb-8 lg:mt-3">
+                  <h2 className="card-title text-left lg:pb-8 lg:mt-3">
                     Capture Every Moment with{" "}
                     <span className="text-primary font-bold">CAStudio</span>
                   </h2>
-                  <p>
+                  <p className="text-justify">
                     In today&apos;s fast-paced business world, every moment counts.{" "}
                     <br />
                     CAStudio offers expert B2B photography for Food & Beverages,

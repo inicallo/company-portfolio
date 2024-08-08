@@ -51,6 +51,7 @@ const Register: React.FC = () => {
             </div>
           </div>
           {/* --start-- */}
+          <div className="m-8">
           <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
             <div className="relative z-0 w-full mb-5 group">
               <input
@@ -192,6 +193,7 @@ const Register: React.FC = () => {
               Register
             </button>
           </form>
+          </div>
           {/* --end-- */}
         </div>
       </div>
