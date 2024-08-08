@@ -70,7 +70,7 @@ const Footer = () => {
         <div className="flex text-base-content content-center justify-center mt-6 lg:mt-0 p-1 lg:pr-40">
           {/* Youtube */}
           <a
-            href="https:www.youtube.com/@calvinangelo9283"
+            href="https://www.youtube.com/@calvinangelo9283"
             target="_blank"
             className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
           >
@@ -88,7 +88,7 @@ const Footer = () => {
 
           {/* instagram */}
           <a
-            href="https:www.instagram.com/inicallo"
+            href="https://www.instagram.com/inicallo"
             target="_blank"
             className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
           >

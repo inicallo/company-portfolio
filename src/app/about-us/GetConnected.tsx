@@ -24,7 +24,7 @@ const GetConnected = () => {
               <div className="flex items-center justify-center lg:justify-normal">
                 {/* Youtube */}
                 <a
-                  href="https:www.youtube.com/@calvinangelo9283"
+                  href="https://www.youtube.com/@calvinangelo9283"
                   target="_blank"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
@@ -42,7 +42,7 @@ const GetConnected = () => {
 
                 {/* instagram */}
                 <a
-                  href="https:www.instagram.com/inicallo"
+                  href="https://www.instagram.com/inicallo"
                   target="_blank"
                   className="w-9 h-9 mr-3 rounded-full flex justify-center items-center border border-slate-300 text-slate-300 hover:border-primary hover:bg-primary hover:text-white"
                 >
