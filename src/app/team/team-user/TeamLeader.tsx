@@ -35,7 +35,8 @@ const TeamLeader = () => {
 
                 <div className="card card-side bg-red-50 shadow-xl">
                   <div className="card-body w-[230px] h-[160px]">
-                  <h2 className="card-title justify-end -mr-5 font-semibold text-2xl mt-28">Lauren Lau
+                    <h2 className="card-title justify-end -mr-5 font-semibold text-2xl mt-28">
+                      Lauren Lau
                     </h2>
                     <p className="text-right italic -mt-3 -mr-4">
                       Managing Director
@@ -43,7 +44,7 @@ const TeamLeader = () => {
                   </div>
                   <figure>
                     <Image
-                      src="/team/Cheeviola.webp"
+                      src="/team/CheeViola.webp"
                       alt="Lauren"
                       width={500}
                       height={500}
