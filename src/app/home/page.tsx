@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import Button from "../components/Button";
 import Link from "next/link";
 import { getNextImageIndex, images } from "../../../constants/background";
-import { Metadata } from "next";
 
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

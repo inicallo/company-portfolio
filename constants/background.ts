@@ -1,12 +1,14 @@
 export const images: string[] = [
-    "/images/photo1.webp",
-    "/images/photo2.webp",
-    "/images/photo3.webp",
-    "/images/photo4.webp",
-    "/images/photo5.webp",
-  ];
-  
-  export const getNextImageIndex = (currentIndex: number, length: number): number => {
-    return currentIndex === length - 1 ? 0 : currentIndex + 1;
-  };
-  
+  "/images/Home/Photo-1.webp",
+  "/images/Home/Photo-2.webp",
+  "/images/Home/Photo-3.webp",
+  "/images/Home/Photo-4.webp",
+  "/images/Home/Photo-5.webp",
+];
+
+export const getNextImageIndex = (
+  currentIndex: number,
+  length: number
+): number => {
+  return currentIndex === length - 1 ? 0 : currentIndex + 1;
+};
