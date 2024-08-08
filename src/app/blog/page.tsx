@@ -1,4 +1,10 @@
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "CA Studio | Blog",
+  description: "Explore CAStudio's blog for insights, tips, and trends in the world of photography. Stay updated with the latest from our experts.",
+};
 
 const page = () => {
   return (

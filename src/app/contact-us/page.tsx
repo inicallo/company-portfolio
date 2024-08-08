@@ -1,4 +1,11 @@
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "CA Studio | Contact Us",
+  description: "Get in touch with CA Studio for inquiries, bookings, or support. We're here to assist you with all your photography needs.",
+};
+
 
 const ContactUs = () => {
   return (
