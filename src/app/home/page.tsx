@@ -43,7 +43,7 @@ const Hero = () => {
           anywhere in the world with our network of local experts,<br />
           ensuring top-quality visuals every time
         </p>
-        <div className="flex flex-col items-center justify-end h-full w-full mb-20 lg:flex-row-reverse lg:mb-80">
+        <div className="flex flex-col items-center justify-end h-full w-full mb-32 lg:flex-row-reverse lg:mb-80">
           <Link href={"https://wa.me/+628111628881"} target="_blank">
             <Button type="button" title="Get In Touch" variant="btn_dark_red" />
           </Link>
