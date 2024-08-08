@@ -5,7 +5,7 @@ import PGGlobal from "./team/team-user/PG-page";
 
 export default function Home() {
   return (
-    <section className="scroll-smooth">
+    <section>
       <Hero />
       <ComOverview />
       <Services />
