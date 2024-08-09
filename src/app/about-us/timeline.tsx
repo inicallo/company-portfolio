@@ -15,7 +15,7 @@ const Timeline = () => {
           <div className="max-w-xl mx-auto">
             <div className="px-4">
               <div>
-                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+                <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical m-3">
                   <li>
                     <div className="timeline-middle">
                       <svg
@@ -31,7 +31,7 @@ const Timeline = () => {
                         />
                       </svg>
                     </div>
-                    <div className="timeline-start mb-10 md:text-end">
+                    <div className="timeline-start mb-10 md:text-end pb-8 lg:pb-0">
                       <time className="font-mono italic">2019</time>
                       <div className="text-lg font-black">The Beginning</div>
                       Founding of CAStudio: Born out of a passion for street
@@ -90,7 +90,7 @@ const Timeline = () => {
                         />
                       </svg>
                     </div>
-                    <div className="timeline-start mb-10 md:text-end">
+                    <div className="timeline-start mb-10 md:text-end pb-10 lg:pb-0">
                       <time className="font-mono italic">2021</time>
                       <div className="text-lg font-black">A Turning Point</div>
                       <span className="font-bold">Global Expansion: </span>
