@@ -178,9 +178,9 @@ const Footer = () => {
         </div>
         <div className="footer text-base-content content-center justify-center pb-5 pt-1 lg:pr-40">
           <aside>
-            <p className="justify-center text-center">
+            <p className="text-[12px] lg:text-[13px] justify-center text-center mt-2">
               Copyright © {new Date().getFullYear()} - All right reserved by
-              <span className="italic font-semibold"> CAStudio.com</span>
+              <span className="italic font-semibold">{" "}Calvin Angelo</span>
             </p>
           </aside>
         </div>

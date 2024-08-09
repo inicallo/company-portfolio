@@ -21,10 +21,10 @@ const Testimonial = () => {
             </h4>
           </div>
           {/* ---Testimoni start--- */}
-          <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm md:mb-12 md:grid-cols-2 bg-white">
-            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e">
-              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 ">
-                <h3 className="text-lg font-semibold text-gray-900">
+          <div className="grid mb-8 border border-gray-200 rounded-lg shadow-sm dark:border-gray-700 md:mb-12 md:grid-cols-2 bg-white">
+            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 rounded-t-lg md:rounded-t-none md:rounded-ss-lg md:border-e dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Exceptional Food Photography for Our Brand
                 </h3>
                 <p className="my-4">
@@ -39,9 +39,9 @@ const Testimonial = () => {
                   width={500}
                   height={500}
                 />
-                <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
+                <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                   <div>Sarah Thompson</div>
-                  <div className="text-sm text-gray-500 ">
+                  <div className="text-sm text-gray-500 dark:text-gray-400">
                     Marketing Director <br />
                     <span className="text-[11px]">British American Tobacco</span><br />
                     New York, USA
@@ -49,9 +49,9 @@ const Testimonial = () => {
                 </div>
               </figcaption>
             </figure>
-            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-se-lg">
-              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8">
-                <h3 className="text-lg font-semibold text-gray-900">
+            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Seamless Corporate Headshots Across Locations
                 </h3>
                 <p className="my-4">
@@ -68,9 +68,9 @@ const Testimonial = () => {
                   width={500}
                   height={500}
                 />
-                <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
+                <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                   <div>James Anderson</div>
-                  <div className="text-sm text-gray-500">
+                  <div className="text-sm text-gray-500 dark:text-gray-400">
                     HR Manager <br />
                     Unilever PLC.
                     <br />
@@ -80,9 +80,9 @@ const Testimonial = () => {
               </figcaption>
             </figure>
 
-            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-es-lg md:border-b-0 md:border-e">
-              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8">
-                <h3 className="text-lg font-semibold text-gray-900">
+            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-b border-gray-200 md:rounded-es-lg md:border-b-0 md:border-e dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Enhanced Product Imagery for Online Success
                 </h3>
                 <p className="my-4">
@@ -99,9 +99,9 @@ const Testimonial = () => {
                   width={500}
                   height={500}
                 />
-                <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
+                <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                   <div>Michael Lee</div>
-                  <div className="text-sm text-gray-500">
+                  <div className="text-sm text-gray-500 dark:text-gray-400">
                     E-commerce Manager <br />
                     GrandLucky <br />
                     Sydney, Australia
@@ -110,9 +110,9 @@ const Testimonial = () => {
               </figcaption>
             </figure>
 
-            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg">
-              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8">
-                <h3 className="text-lg font-semibold text-gray-900 ">
+            <figure className="flex flex-col items-center justify-center p-8 text-center bg-white border-gray-200 rounded-b-lg md:rounded-se-lg dark:bg-gray-800 dark:border-gray-700">
+              <blockquote className="max-w-2xl mx-auto mb-4 text-gray-500 lg:mb-8 dark:text-gray-400">
+                <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
                   Perfect Property Photos that Stand Out
                 </h3>
                 <p className="my-4">
@@ -129,9 +129,9 @@ const Testimonial = () => {
                   width={500}
                   height={500}
                 />
-                <div className="space-y-0.5 font-medium text-left rtl:text-right ms-3">
+                <div className="space-y-0.5 font-medium dark:text-white text-left rtl:text-right ms-3">
                   <div>Emily Rodriguez</div>
-                  <div className="text-sm text-gray-500">
+                  <div className="text-sm text-gray-500 dark:text-gray-400">
                     General Manager <br />
                     Grand Orchadz Group. <br />
                     Jakarta, Indonesia
