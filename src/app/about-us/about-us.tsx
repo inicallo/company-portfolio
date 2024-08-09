@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const AboutUs = () => {
   return (
     <section>
-      <div className="relative flex justify-center pt-28 lg:pt-10 bg-slate-100">
+      <div className="relative flex justify-center pb-5 pt-28 lg:pt-10 bg-slate-100">
         <div className="container">
           <div className="flex flex-wrap m-5 lg:mb-24 lg:mt-24">
             <div className="mx-auto text-center mb-3 w-full lg:w-1/2">
@@ -28,7 +28,7 @@ const AboutUs = () => {
             </div>
             <div className="flex flex-wrap mx-auto">
               <div className="card lg:card-side bg-base-100 shadow-xl">
-                <figure>
+                <figure className="w-full h-full">
                   <Image
                     src="/images/photographers.webp"
                     alt="Photography1"
@@ -39,12 +39,12 @@ const AboutUs = () => {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title text-left lg:pb-8 lg:mt-3">
+                  <h2 className="card-title text-left lg:pb-8 lg:mt-14">
                     Capture Every Moment with{" "}
                     <span className="text-primary font-bold">CAStudio</span>
                   </h2>
-                  <p className="text-justify">
-                    In today&apos;s fast-paced business world, every moment counts.{" "}
+                  <p className="lg:text-justify">
+                    In today&apos;s fast-paced business world, every moment counts.
                     <br />
                     CAStudio offers expert B2B photography for Food & Beverages,
                     Health & Beauty, Property, Events, Products, Headshots, and
