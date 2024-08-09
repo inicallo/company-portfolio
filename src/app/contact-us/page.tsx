@@ -66,15 +66,15 @@ const ContactUs = () => {
                   htmlFor="inquires"
                   className="text-base font-bold text-dark1"
                 >
-                  Type of project?
+                  Project type?
                 </label>
                 <select
                   id="TypeProject"
                   required
-                  className="select select-bordered w-full bg-slate-200 text-dark1 rounded-md border-black focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary mb-3"
+                  className="select select-bordered w-full bg-slate-200 text-dark1 rounded-md border-black focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary mb-2"
                 >
                   <option disabled selected>
-                    Who shot first?
+                    What is your project type?
                   </option>
                   <option>Food & Beverages</option>
                   <option>Commercial Lifestyle / Health & Beauty</option>
@@ -98,7 +98,7 @@ const ContactUs = () => {
                   name="message"
                   id="message"
                   placeholder="Tell us how we can help you with your photography or upcoming project needs..."
-                  className="w-full bg-slate-200 text-dark1 p-4 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
+                  className="w-full h-24 bg-slate-200 text-dark1 rounded-md focus:outline-none focus:ring-primary focus:ring-1 focus:border-primary"
                 ></textarea>
               </div>
               <div className="w-full px-4">
