@@ -39,7 +39,7 @@ const PGGlobal: NextPage = () => {
 
   return (
     <section className="relative bg-slate-100">
-      <div className="relative flex justify-center pt-5 pb-6 lg:pt-7 ">
+      <div className="relative flex justify-center pt-5 pb-6 lg:pt-7">
         <div className="container">
           <div className="max-h-screen text-center mb-1">
             <div className="mx-auto text-center lg:mt-5 mb-3 w-full lg:w-1/2">
