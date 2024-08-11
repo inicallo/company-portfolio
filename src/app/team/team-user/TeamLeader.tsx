@@ -3,7 +3,7 @@ import React from "react";
 
 const TeamLeader = () => {
   return (
-    <section className="relative pb-24 bg-slate-100">
+    <section className="grid grid-rows-2 pb-24 bg-slate-100">
       <div className="relative flex justify-center pt-14 lg:pt-5">
         <div className="container">
           <div className="max-h-screen text-center mb-5">
