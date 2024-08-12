@@ -11,9 +11,25 @@ const ClientNavbar = dynamic(() => import("./components/navbarr"), {
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://castudio-rho.vercel.app'),
   title: "CA Studio",
   description: "Photography Agency",
+  openGraph: {
+    title: "CA Studio",
+    description: "Photography Agency",
+    url: "https://castudio-rho.vercel.app/",
+    type: "website",
+    images: [
+      {
+        url: "/CASTUDIO.png",
+        width: 150,
+        height: 150,
+        alt: "CA Studio - Photography Agency",
+      },
+    ],
+  },
 };
+
 
 export default function RootLayout({
   children,
